@@ -1,0 +1,228 @@
+.header img{
+  width: 7vw;
+  height: 15vh;
+}
+
+.header{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+}
+.header_back{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.404);
+  color: white;
+}
+.header_back img{
+  width: 7vw;
+  height: 15vh;
+  background-color: rgba(255, 255, 255, 0.616);
+}
+
+nav{
+  width: 40vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.body_mani_aside{
+  display: flex;
+  margin-bottom: 12vh;
+}
+
+main{
+  margin-top: 15vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+  position: static;
+  gap: 2vh;
+}
+
+aside{
+  margin-top: 15vh;
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box_user_dashboard{
+  width: 27vw;
+  height: 65vh;
+  background-color: white;
+  border-radius: 14px;
+  margin-top: 5vh;
+  box-shadow:  5px 5px 10px #848080,
+  -5px -5px 10px #f3f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.usr_icon_dashboard{
+  width:15vw;
+  height: 30vh;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 2vh;
+}
+footer{
+  overflow: hidden;
+  width: 100vw;
+  height: 20vh;
+  background-color: purple;
+}
+
+.body_dashboard{
+  overflow: hidden;
+  background-color: rgba(218, 213, 213, 0.699);
+}
+
+
+.box_section_course_one{
+  width: 60vw;
+  height: 20vh;
+  background-color: white;
+  box-shadow:  5px 5px 10px #848080,
+  -5px -5px 10px #f3f0f0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  gap: 2vh;
+}
+.data_usr_dashboard {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.data_usr_dashboard h4{
+  margin: 5px;
+}
+
+.data_usr_dashboard button{
+  width: 10vw;
+  height: 5vh;
+  border-radius: 0;
+}
+
+.box_course_modules{
+  width: 60vw;
+  gap: 3vh;
+  background-color: white;
+  box-shadow:  5px 5px 10px #848080,
+  -5px -5px 10px #f3f0f0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+.box_module{
+  width: 50vw;
+  height: 10vh;
+  background-color: #cd5c5c;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  box-shadow:  0px 2px 5px #020202,
+             -5px -5px 12px #faf7f7;
+}
+.module_course{
+  width:50vw ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.main_curser{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.box_module_separation{
+  width: 30vw;
+  height: 8vh;
+  background-color: indigo;
+  box-shadow:  0px 2px 5px #020202,
+             -5px -5px 12px #faf7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 14px;
+}
+
+.box_module_separation_panel{
+  padding-top: 3vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3vh;
+  gap: 5vh;
+  color: white;
+}
+
+.com_box_module_separation_panel{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+  padding-bottom: 3vh;
+  border-radius: 14px;
+}
+
+.video_box_module_separation_panel{
+  width: 45vw;
+  background-color: #57597e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 8vh;
+  border-radius: 14px;
+  color: white;
+}

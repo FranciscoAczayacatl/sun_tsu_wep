@@ -1,0 +1,24 @@
+.box_activiti{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text_activity{
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_activiti p{
+  margin: 2px;
+  font-size: 20px;
+}
+
+.box_activiti h4{
+  margin: 1vh;
+}
